@@ -63,13 +63,18 @@ Possible KPIS include
 
 .The call center handled a total of 5000 calls in the specified period.
 .A high percentage of calls were answered (4054 out of 5000), indicating good availability.
+
 .However, 946 calls were abandoned, which could indicate potential issues in handling peak times or long wait times.
+
 .Martha handled the highest speed of answering calls, followed by  Jim and Dan.
+
 .The average speed of answer varies slightly among agents, but Stewart has the lowest speed.
+
 
 # Improvement Areas
 
 .Reducing the number of abandoned calls should be a focus to improve overall customer satisfaction.
+
 
 .Investigate why some agents have lower satisfaction ratings and provide additional training or resources as needed.
 
