@@ -70,6 +70,7 @@ Calls Abandoned = COUNTX(FILTER('call centre trends','call centre trends'[Answer
 #Improvement Areas
 
 .Reducing the number of abandoned calls should be a focus to improve overall customer satisfaction.
+
 .Investigate why some agents have lower satisfaction ratings and provide additional training or resources as needed.
 
 
