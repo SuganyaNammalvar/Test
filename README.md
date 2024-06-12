@@ -67,7 +67,7 @@ Calls Abandoned = COUNTX(FILTER('call centre trends','call centre trends'[Answer
 .Martha handled the highest speed of answering calls, followed by  Jim and Dan.
 .The average speed of answer varies slightly among agents, but Stewart has the lowest speed.
 
-#Improvement Areas
+# Improvement Areas
 
 .Reducing the number of abandoned calls should be a focus to improve overall customer satisfaction.
 
