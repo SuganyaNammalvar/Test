@@ -34,16 +34,16 @@ Possible KPIS include
 
  Following DAX expression was written;
 
- CallAnswered = CALCULATE(COUNT('call centre trends'[Call Id]),FILTER('call centre trends','call centre trends'[Answered (Y/N)]="Y"))
+1. CallAnswered = CALCULATE(COUNT('call centre trends'[Call Id]),FILTER('call centre trends','call centre trends'[Answered (Y/N)]="Y"))
 
- CallResolved = CALCULATE(COUNT('call centre trends'[Call Id]),FILTER('call centre trends','call centre trends'[Resolved]="Y"))
+ 2.CallResolved = CALCULATE(COUNT('call centre trends'[Call Id]),FILTER('call centre trends','call centre trends'[Resolved]="Y"))
 
-Calls Abandoned = COUNTX(FILTER('call centre trends','call centre trends'[Answered (Y/N)] = "N"), 'call centre trends'[Answered (Y/N)])
+3.Calls Abandoned = COUNTX(FILTER('call centre trends','call centre trends'[Answered (Y/N)] = "N"), 'call centre trends'[Answered (Y/N)])
  Total calls=CALCULATE('call centre trends'[Answered] + 'call centre trends'[Calls Abandoned])
 
- Target value satisfaction=4.5
+ 4.Target value satisfaction=4.5
  
- Count satisfaction rating = count('call centre trends'[Satisfaction rating])
+ 5.Count satisfaction rating = count('call centre trends'[Satisfaction rating])
 
 
 
